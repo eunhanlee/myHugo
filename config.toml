@@ -1,9 +1,9 @@
 baseurl = "https://eunhanlee.github.io/"
 languageCode = "en-us"
-title = "Blackburn Theme Demo"
+title = "Eunhan's library"
 theme = "blackburn"
-author = "Yoshiharu Yamashita"
-copyright = "&copy; 2016. All rights reserved."
+author = "Eunhan Lee"
+copyright = "&copy; 2021. All rights reserved."
 canonifyurls = true
 paginate = 10
 
