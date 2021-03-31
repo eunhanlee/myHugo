@@ -46,7 +46,7 @@ paginate = 10
     pre = "<i class='fa fa-tags fa-fw'></i>"
     identifier = "tag"
     weight = 300
-    url = "/tag/"
+    url = "/tags/"
 
 
 [social]
