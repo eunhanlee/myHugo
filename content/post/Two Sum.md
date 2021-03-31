@@ -1,11 +1,9 @@
 ---
 title : "Two Sum"
 date : "2021-03-31"
-tags : [algorithm questions, two sum, IllegalArgumentException, hashmap]
+tags : []
 topics : [Algorithm Questions]
 description : ""
-katex: true
-markup: "mmark"
 ---
 
 ## Problem
@@ -117,8 +115,7 @@ class Solution {
 ```
 
 - Time complexity : $$O(n)$$
-- Space complexity : \\(O(n)\\)
-
+- Space complexity : $$O(n)$$
 
 ## Reflect on
 
