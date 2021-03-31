@@ -116,13 +116,8 @@ class Solution {
 ```
 
 - Time complexity : $$O(n)$$
-- Space complexity : $O(n)$
+- Space complexity : $$O(n)$$
 
-aadsas
-
-$A\equiv B(mod C)$
-$$A\equiv B(mod C)$$
-\\( A \equiv B(mod C) \\)
 
 ## Reflect on
 
