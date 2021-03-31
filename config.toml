@@ -42,11 +42,17 @@ paginate = 10
     identifier = "about"
     url = "/about/"
   [[menu.main]]
+    name = "Algorithm Questions"
+    pre = "<i class='glyphicon glyphicon-book fa-fw'></i>"
+    weight = 4
+    identifier = "algorithm-questions"
+    url = "/algorithm questions/"
+  [[menu.main]]
     name = "Tags"
     pre = "<i class='fa fa-tags fa-fw'></i>"
     identifier = "tag"
     weight = 300
-    url = "/tags/"
+    url = "/tag/"
 
 
 [social]
