@@ -4,6 +4,8 @@ date : "2021-03-31"
 tags : [algorithm questions, two sum, IllegalArgumentException, hashmap]
 topics : [Algorithm Questions]
 description : ""
+katex: true
+markup: "mmark"
 ---
 
 ## Problem
@@ -116,6 +118,9 @@ class Solution {
 
 - Time complexity : $O(n)$
 - Space complexity : $O(n)$
+$$O(n)$$
+
+{{O_2}}
 
 ## Reflect on
 
