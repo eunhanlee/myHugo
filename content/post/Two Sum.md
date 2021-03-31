@@ -122,6 +122,9 @@ $$O(n)$$
 
 {{O_2}}
 
+$$\int_{a}^{b} x^2 dx$$
+
+
 ## Reflect on
 
 - Have no idea about "IllegalArgumentException" I knew this is there but did not know what representing.
