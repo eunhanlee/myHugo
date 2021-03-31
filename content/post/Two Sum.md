@@ -116,13 +116,8 @@ class Solution {
 }
 ```
 
-- Time complexity : $O(n)$
-- Space complexity : $O(n)$
-$$O(n)$$
-
-{{O_2}}
-
-$$\int_{a}^{b} x^2 dx$$
+- Time complexity : $$O(n)$$
+- Space complexity : $$O(n)$$
 
 
 ## Reflect on
