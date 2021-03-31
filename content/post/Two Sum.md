@@ -1,9 +1,9 @@
 ---
 title : "Two Sum"
 date : "2021-03-31"
-tags = []
-topics = [Algorithm Questions]
-description = ""
+tags : []
+topics : [Algorithm Questions]
+description : ""
 ---
 
 # Two Sum
