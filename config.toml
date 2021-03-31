@@ -49,7 +49,7 @@ paginate = 10
     url = "/topics/algorithm questions/"
     
   [[menu.main]]
-    name = "code knowledge"
+    name = "Code Knowledge"
     pre = "<i class='fa fa-book fa-fw'></i>"
     weight = 4
     identifier = "code-knowledge"
