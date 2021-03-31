@@ -6,12 +6,7 @@ topics : [Algorithm Questions]
 description : ""
 ---
 
-# Two Sum
-
 ## Problem
-
-- 1 hour limit
-- no search on internet
 
 [Problem_Link](https://leetcode.com/problems/two-sum/)
 
@@ -52,6 +47,9 @@ Output: [0,1]
 
 ## My Answer
 
+- 1 hour limit
+- no search on internet
+
 ### My code
 
 ```java
@@ -86,13 +84,10 @@ class Solution {
 
 ### My result
 
+```
 Runtime: 0 ms
 Memory Usage: 39.5 MB
-
-## Reflect on
-
-- Have no idea about "IllegalArgumentException" I knew this is there but did not know what representing.
-- basic algorithm was correct and good as answers from solution. However, I did not use the hash table even though I know that data structure and it's O(n). I need to used to use the other data structures.
+```
 
 ## Best Answer
 
@@ -119,9 +114,15 @@ class Solution {
 }
 ```
 
-Time complexity : $O(n)$
-Space complexity : $O(n)$
+- Time complexity : $O(n)$
+- Space complexity : $O(n)$
+
+## Reflect on
+
+- Have no idea about "IllegalArgumentException" I knew this is there but did not know what representing.
+- basic algorithm was correct and good as answers from solution. However, I did not use the hash table even though I know that data structure and it's O(n). I need to used to use the other data structures.
 
 ## Additional Study needed
+
 - IllegalArgumentException (exceptions)
 - hash table
