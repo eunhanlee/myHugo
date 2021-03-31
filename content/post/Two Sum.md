@@ -1,9 +1,10 @@
 ---
 title : "Two Sum"
 date : "2021-03-31"
-tags : []
+tags : [algorithm questions, two sum, IllegalArgumentException, hashmap]
 topics : [Algorithm Questions]
-description : ""
+katex: true
+markup: "mmark"
 ---
 
 ## Problem
@@ -115,7 +116,13 @@ class Solution {
 ```
 
 - Time complexity : $$O(n)$$
-- Space complexity : $$O(n)$$
+- Space complexity : $O(n)$
+
+aadsas
+
+$A\equiv B(mod C)$
+$$A\equiv B(mod C)$$
+\\( A \equiv B(mod C) \\)
 
 ## Reflect on
 
