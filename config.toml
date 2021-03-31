@@ -15,7 +15,7 @@ paginate = 10
   # Shown in the home page
   subtitle = "Eunhan's personal web site / portfolio"
   brand = "Code Box"
-  googleAnalytics = "Your Google Analytics tracking ID"
+  googleAnalytics = "poiqqaz"
   disqus = "Eunhan"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
