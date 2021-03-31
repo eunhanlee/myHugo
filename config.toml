@@ -44,9 +44,18 @@ paginate = 10
   [[menu.main]]
     name = "Algorithm solving"
     pre = "<i class='fas fa-code fa-fw'></i>"
-    weight = 4
+    weight = 5
     identifier = "algorithm-questions"
     url = "/topics/algorithm questions/"
+    
+  [[menu.main]]
+    name = "code knowledge"
+    pre = "<i class='fas fa-code fa-fw'></i>"
+    weight = 4
+    identifier = "code-knowledge"
+    url = "/topics/code knowledge/"    
+    
+    
   [[menu.main]]
     name = "Tags"
     pre = "<i class='fa fa-tags fa-fw'></i>"
