@@ -50,7 +50,7 @@ paginate = 10
     
   [[menu.main]]
     name = "code knowledge"
-    pre = "<i class='fas fa-code fa-fw'></i>"
+    pre = "<i class='fa fa-book fa-fw'></i>"
     weight = 4
     identifier = "code-knowledge"
     url = "/topics/code knowledge/"    
