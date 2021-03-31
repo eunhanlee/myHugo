@@ -42,7 +42,7 @@ paginate = 10
     identifier = "about"
     url = "/about/"
   [[menu.main]]
-    name = "Algorithm Questions"
+    name = "Algorithm solving"
     pre = "<i class='fas fa-code fa-fw'></i>"
     weight = 4
     identifier = "algorithm-questions"
