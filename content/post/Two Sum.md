@@ -1,7 +1,7 @@
 ---
 title : "Two Sum"
 date : "2021-03-31"
-tags : [algorithm questions, two sum, IllegalArgumentException, hash]
+tags : [algorithm questions, two sum, IllegalArgumentException, hashmap]
 topics : [Algorithm Questions]
 description : ""
 ---
