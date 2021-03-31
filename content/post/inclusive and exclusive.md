@@ -6,14 +6,7 @@ topics : [code knowledge]
 description : ""
 ---
 
-# inclusive and exclusive
-
-{: .no_toc }
-
----
-
 > **Inclu**sive - **Inclu**ding the last number
-
 > **Exclu**sive - **Exclu**ding the last number
 
 In Computer Science, inclusive/exclusive apply to a **number range**
