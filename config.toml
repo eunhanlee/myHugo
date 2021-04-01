@@ -16,7 +16,7 @@ paginate = 10
   subtitle = "Eunhan's personal web site / portfolio"
   brand = "library"
   googleAnalytics = "poiqqaz"
-  disqus = "disqus_BC8epAvRqa"
+  disqus = "eunhanlee"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006"
