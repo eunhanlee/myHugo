@@ -22,7 +22,7 @@ George Mason University, Fairfax, Virginia
 ## **Related Experience**
 
 |Projects or Works|Languages|
-|:------:|:---:|
+|:------|:---|
 |hat program on Android by using PubNub API|JAVA, Android|
 |Communication with manufacturing|Communication|
 |Checking new files uploaded on Dropbox by using Dropbox API|JAVA, Android|
