@@ -9,9 +9,7 @@ description: "Introducing myself"
 # **EUNHAN LEE**
 
 (C) 571-294-2589
-
 [e-mail](mailto:eunhanlee58@gmail.com)
-
 [LinkedIn](https://www.linkedin.com/in/eh4925/)
 
 ## **Education**
