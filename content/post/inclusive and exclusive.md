@@ -1,8 +1,8 @@
 ---
-title : "inclusive and exclusive"
+title : inclusive and exclusive
 date : "2021-03-31"
 tags : [inclusive, exclusive, code knowledge, programming term]
-topics : [code knowledge]
+topics : [CodeKnowledge]
 katex: true
 markup: "mmark"
 ---
