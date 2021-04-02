@@ -1,6 +1,6 @@
 ---
-title : [Java] what is difference between Error and Exception in JAVA
-date : 2021-04-02
+title : "[Java] what is difference between Error and Exception in JAVA"
+date : "2021-04-02"
 tags : [coding questions, Java, Error,Exception,Difference]
 topics : [CodingQuestions]
 katex: true
