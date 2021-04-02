@@ -30,17 +30,23 @@ paginate = 10
     identifier = "home"
     url = "/"
   [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
     name = "All Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 3
     identifier = "post"
     url = "/post/"
   [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 2
-    identifier = "about"
-    url = "/about/"
+    name = "Code Knowledge"
+    pre = "<i class='fa fa-book fa-fw'></i>"
+    weight = 4
+    identifier = "code-knowledge"
+    url = "/topics/code knowledge/"
   [[menu.main]]
     name = "Algorithm solving"
     pre = "<i class='fas fa-code fa-fw'></i>"
@@ -48,12 +54,7 @@ paginate = 10
     identifier = "algorithm-questions"
     url = "/topics/algorithm questions/"
     
-  [[menu.main]]
-    name = "Code Knowledge"
-    pre = "<i class='fa fa-book fa-fw'></i>"
-    weight = 4
-    identifier = "code-knowledge"
-    url = "/topics/code knowledge/"    
+    
     
     
   [[menu.main]]
