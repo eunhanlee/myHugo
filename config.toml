@@ -43,18 +43,18 @@ paginate = 10
     url = "/post/"
     
     
-  [[menu.main]]
-    name = "HowToInstall"
-    pre = "<i class='fas fa-chalkboard fa-fw'></i>"
-    weight = 4
-    identifier = "HowToInstall"
-    url = "/topics/HowToInstall/"
-  [[menu.main]]
-    name = "Projects"
-    pre = "<i class='fas fa-file-code fa-fw'></i>"
-    weight = 5
-    identifier = "Projects"
-    url = "/topics/Projects/"
+#  [[menu.main]]
+#    name = "HowToInstall"
+#    pre = "<i class='fas fa-chalkboard fa-fw'></i>"
+#    weight = 4
+#    identifier = "HowToInstall"
+#    url = "/topics/HowToInstall/"
+#  [[menu.main]]
+#    name = "Projects"
+#    pre = "<i class='fas fa-file-code fa-fw'></i>"
+#    weight = 5
+#    identifier = "Projects"
+#    url = "/topics/Projects/"
    [[menu.main]]
     name = "CodeKnowledge"
     pre = "<i class='fa fa-book fa-fw'></i>"
