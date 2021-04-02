@@ -41,18 +41,44 @@ paginate = 10
     weight = 3
     identifier = "post"
     url = "/post/"
+    
+    
   [[menu.main]]
-    name = "Code Knowledge"
-    pre = "<i class='fa fa-book fa-fw'></i>"
+    name = "HowToInstall"
+    pre = "<i class='fas fa-chalkboard fa-fw'></i>"
     weight = 4
-    identifier = "code-knowledge"
-    url = "/topics/code knowledge/"
+    identifier = "HowToInstall"
+    url = "/topics/HowToInstall/"
   [[menu.main]]
-    name = "Algorithm solving"
-    pre = "<i class='fas fa-code fa-fw'></i>"
+    name = "Projects"
+    pre = "<i class='fas fa-file-code fa-fw'></i>"
     weight = 5
-    identifier = "algorithm-questions"
-    url = "/topics/algorithm questions/"
+    identifier = "Projects"
+    url = "/topics/Projects/"
+   [[menu.main]]
+    name = "CodeKnowledge"
+    pre = "<i class='fas fa-laptop-code fa-fw'></i>"
+    weight = 6
+    identifier = "CodeKnowledge"
+    url = "/topics/CodeKnowledge/"
+  [[menu.main]]
+    name = "ProblemSolving"
+    pre = "<i class='fas fa-puzzle-piece fa-fw'></i>"
+    weight = 7
+    identifier = "ProblemSolving"
+    url = "/topics/ProblemSolving/"
+  [[menu.main]]
+    name = "CodingQuestions"
+    pre = "<i class='far fa-question-circle fa-fw'></i>"
+    weight = 8
+    identifier = "CodingQuestions"
+    url = "/topics/CodingQuestions/"
+  [[menu.main]]
+    name = "Java"
+    pre = "<i class='fas fa-code fa-fw'></i>"
+    weight = 9
+    identifier = "Java"
+    url = "/topics/Java/"
     
     
     
