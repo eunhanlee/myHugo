@@ -1,6 +1,6 @@
 ---
-title : "Two Sum"
-date : "2021-03-31"
+title : Two Sum
+date : 2021-03-31
 tags : [algorithm problem solving, two sum, IllegalArgumentException, hashmap]
 topics : [ProblemSolving]
 katex: true
