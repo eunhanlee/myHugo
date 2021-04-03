@@ -10,7 +10,9 @@
 
   {{ .Content }}
   
-
+  {{ if (findRE "<pre" .Content 1) }}
+    {{ partial "add_button.html" . }}
+{{ end }}
  
   
   {{ partial "share.html" . }}
