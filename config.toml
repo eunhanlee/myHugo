@@ -18,7 +18,7 @@ paginate = 10
   googleAnalytics = "poiqqaz"
   disqus = "eunhanlee"
   # CSS name for highlight.js
-  highlightjs = "androidstudio"
+  highlightjs = "add-copy-buttons"
   dateFormat = "02 Jan 2006"
 
 [menu]
