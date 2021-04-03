@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+
+<div class="header">
+  <h1>{{ .Title }}</h1>
+  <h2>{{ .Description }}</h2>
+</div>
+<div class="content">
+
+  {{ partial "post_meta.html" . }}
+
+  {{ .Content }}
+  <b>11111111111111111111122222222222222222222223333333333333333333333444444444444444444444444455555555555555555555555555666666666666666666666677777777777777777788888888888</b>
+  
+  {{ partial "share.html" . }}
+
+  {{ partial "prev_next_post.html" . }}
+  
+  {{ partial "commento.html" . }}
+  
+  {{ partial "disqus.html" . }}
+
+  {{ partial "telegram.html" . }}
+
+</div>
+
+{{ partial "footer.html" . }}
