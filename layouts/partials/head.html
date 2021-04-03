@@ -74,9 +74,5 @@
         <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
     {{ end }}
   {{ end }}
-
-  {{ if (findRE "<pre" .Content 1) }}
-    <script src="/js/copy-code-button.js"></script>
-{{ end }}
   
 </head>
