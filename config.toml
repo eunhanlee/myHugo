@@ -17,8 +17,6 @@ paginate = 10
   brand = "library"
   googleAnalytics = "poiqqaz"
   disqus = "eunhanlee"
-  # CSS name for highlight.js
-  highlightjs = "add-copy-buttons"
   dateFormat = "02 Jan 2006"
 
 [menu]
