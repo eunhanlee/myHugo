@@ -11,4 +11,7 @@
 
 </body>
 {{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
+{{ if (findRE "<pre" .Content 1) }}
+    <script src="/js/copy-code-button.js"></script>
+{{ end }}
 </html>
