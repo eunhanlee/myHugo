@@ -118,7 +118,7 @@ class Solution {
 - Time complexity : $O(n)$
 - Space complexity : $$O(n)$$
 
-$$\frac{\alpha }{\beta }$$ss
+//(\frac{\alpha }{\beta }\\)ss
 
 ## Reflect on
 
