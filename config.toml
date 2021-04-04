@@ -19,6 +19,11 @@ paginate = 10
   googleAnalytics = "poiqqaz"
   disqus = "eunhanlee"
   dateFormat = "02 Jan 2006"
+ 
+[ markup.goldmark ]
+[ markup.goldmark.extensions]
+    table = true
+ 
 
 [menu]
   # Shown in the side menu.
