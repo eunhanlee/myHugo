@@ -1,9 +1,6 @@
 .highlight {
     position: relative;
 }
-.highlight pre {
-    padding-right: 705px;
-}
 .highlight-copy-btn {
     position: absolute;
     bottom: 7px;
@@ -13,7 +10,7 @@
     padding: 1px;
     font-size: 0.7em;
     line-height: 1.8;
-    color: #fff;
+    color: #f39;
     background-color: #777;
     min-width: 55px;
     text-align: center;
