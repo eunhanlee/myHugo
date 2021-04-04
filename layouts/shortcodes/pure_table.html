@@ -2,7 +2,7 @@
 {{ $fields := (index .Params 0) }}
 {{ $data := after 1 .Params }}
 
-<table class="pure-table pure-table-striped table-bordered">
+<table class="table-bordered pure-table pure-table-striped ">
   <thead><tr>
     {{ range split $fields "|"}}
       <th>{{ . }}</th>
