@@ -4,6 +4,7 @@ date : 2021-04-01
 tags : [Dynamic Programming]
 topics : [CodeKnowledge]
 katex: true
+markup: "mmark"
 ---
 
 ## Definition
