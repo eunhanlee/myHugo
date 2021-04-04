@@ -1,6 +1,6 @@
 {{ $htmlTable := .Inner | markdownify }}
 {{ $class := .Get 0 }}
 {{ $old := "<table>" }}
-{{ $new := printf "<table "table table-striped table-bordered"> }}
+{{ $new := printf "<table "table table-striped table-bordered"> $class }}
 {{ $htmlTable := replace $htmlTable $old $new }}
 {{ $htmlTable | safeHTML }}
