@@ -19,8 +19,6 @@ paginate = 10
   googleAnalytics = "poiqqaz"
   disqus = "eunhanlee"
   dateFormat = "02 Jan 2006"
-  custom_css = ["css/my.css"]
-  custom_js = ["js/my.js"]
 
 [menu]
   # Shown in the side menu.
