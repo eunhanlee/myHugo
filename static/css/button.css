@@ -3,18 +3,18 @@
 }
 .highlight-copy-btn {
     position: absolute;
-    bottom: 7px;
+    top: 7px;
     right: 7px;
     border: 0;
     border-radius: 4px;
     padding: 1px;
     font-size: 0.7em;
     line-height: 1.8;
-    color: #f39;
+    color: #fff;
     background-color: #777;
     min-width: 55px;
     text-align: center;
 }
 .highlight-copy-btn:hover {
-    background-color: #666;
+    background-color: #F5F5DC;
 }
