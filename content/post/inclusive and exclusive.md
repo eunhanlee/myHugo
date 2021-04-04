@@ -3,8 +3,6 @@ title : inclusive and exclusive
 date : 2021-03-31
 tags : [inclusive, exclusive, code knowledge, programming term]
 topics : [CodeKnowledge]
-katex: true
-markup: "mmark"
 ---
 
 > **Inclu**sive - **Inclu**ding the last number
