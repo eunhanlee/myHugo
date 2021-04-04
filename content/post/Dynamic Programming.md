@@ -1,7 +1,7 @@
 ---
 title : Dynamic Programming
 date : 2021-04-01
-tags : [Dynamic Programming]
+tags : [code knowledge, Dynamic Programming]
 topics : [CodeKnowledge]
 katex: true
 markup: "mmark"
