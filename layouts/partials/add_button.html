@@ -40,8 +40,12 @@
         flashCopyMessage(copyBtn, 'Failed :\'(')
       }
     });
+    
+    const wrapper = document.createElement("div");
+    wrapper.className = "highlight-wrapper";
 
     containerEl.appendChild(copyBtn);
+    containerEl.appendChild(wrapper);
   }
 
   // Add copy button to code blocks
