@@ -4,3 +4,4 @@
 {{ $new := printf "<table class=\"%s\">" $class }}
 {{ $htmlTable := replace $htmlTable $old $new }}
 {{ $htmlTable | safeHTML }}
+{{ $("table").addClass("table thead-dark table-striped table-bordered table-hover") }}
