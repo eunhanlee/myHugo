@@ -8,7 +8,9 @@
 
   {{ partial "post_meta.html" . }}
 
-  {{ .Content }}
+  
+ {{ $wrappedTable := printf "<div class=pure-table pure-table-bordered> ${1} </div>" }}
+ {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
   
   {{ if (findRE "<pre" .Content 1) }}
     {{ partial "add_button.html" . }}
