@@ -3,8 +3,6 @@ title : Two Sum
 date : 2021-03-31
 tags : [algorithm problem solving, two sum, IllegalArgumentException, hashmap]
 topics : [ProblemSolving]
-katex: true
-markup: "mmark"
 ---
 
 ## Problem
@@ -115,8 +113,8 @@ class Solution {
 }
 ```
 
-- Time complexity : $$O(n)$$
-- Space complexity : $$O(n)$$
+- Time complexity : $O(n)$
+- Space complexity : $O(n)$
 
 
 ## Reflect on
