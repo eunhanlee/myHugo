@@ -11,7 +11,7 @@ algorithmic problem solving technique that split into many simple subproblems an
 
 ## Example
 
-if you calculate $$2^1+2^2+2^3+2^4+2^5$$ and display each numbers,
+if you calculate $2^1+2^2+2^3+2^4+2^5$ and display each numbers,
 
 
 $2^1=2=2$
@@ -24,4 +24,4 @@ $2^4=2+2+2+2=2^3+2$
 
 $2^5=2+2+2+2+2=2^4+2$
 
-since you need to calculate each of numbers ($$2^1,2^2,2^3,2^4,2^5$$), you can skip some of parts that you already calculated. When you calculate the $$2^5$$, you done have to calculate $$2^4$$ if that number $$2^4$$ is already calculated.
+since you need to calculate each of numbers ($2^1,2^2,2^3,2^4,2^5$), you can skip some of parts that you already calculated. When you calculate the $2^5$, you done have to calculate $2^4$ if that number $2^4$ is already calculated.
