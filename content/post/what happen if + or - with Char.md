@@ -3,11 +3,11 @@ title : "what happen if + or - with Char in JAVA"
 date : "2021-04-04"
 tags : [coding questions, Char +, Char -, Java]
 topics : [CodingQuestions]
-katex: true
-markup: "mmark"
 ---
 
 ## Result
+
+$2^3$
 
 | code | result |
 |---|---|
