@@ -30,7 +30,7 @@ We says, n is ***Included*** in ***Inclusive***
 
 ### exclusive
 
-If a function will compute $$2^i$$ where `i = 1, 2, ..., n`
+If a function will compute $2^i$ where `i = 1, 2, ..., n`
 
 `i` can have values from 1 up to *and including* the value `n-1`. Which means 
 
