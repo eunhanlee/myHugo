@@ -52,6 +52,7 @@ Output: [0,1]
 ### My code
 
 ```java
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
                 int temp[] = new int[nums.length];
@@ -90,9 +91,10 @@ Memory Usage: 39.5 MB
 
 ## Best Answer
 
-Search from internet and other people to create best code
+Search from internet and modified
 
 ```java
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 
