@@ -23,6 +23,7 @@ topics : [CodingQuestions]
 ### For lexicographical order
 
 ```java
+
 for (int i = 0; i < order.length(); ++i)
             index[order.charAt(i) - 'a'] = i;
 ```
@@ -44,6 +45,7 @@ The char data type is a single 16-bit Unicode character. It has a minimum value 
 ## Test
 
 ```java
+
 public class Main {
     public static void main(String[] args) {
 
@@ -70,6 +72,7 @@ public class Main {
 ## Output
 
 ```java
+
 A
 65
 -1
