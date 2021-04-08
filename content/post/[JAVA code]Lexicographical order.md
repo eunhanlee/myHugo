@@ -5,7 +5,7 @@ tags : [Java Dictionary,Lexicographical order, Dictionary order, lexicographic, 
 topics : [Java]
 ---
 
-- Time complexity : $O(n\, log\, n)$
+- Time complexity : $O(n\ log\ n)$
 - Space complexity : $O(1)$
 
 ```java
