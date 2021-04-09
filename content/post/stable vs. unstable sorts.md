@@ -19,24 +19,16 @@ unstable sorted list=[3(2), 3(1), 4, 7(2), 7(1), 9]
 
 ### Stable Sorting
 
-Bubble Sort
-
-Insertion Sort
-
-Merge Sort
-
-Counting Sort
-
-Bucket Sort
-
-Radix Sort
+Bubble Sort   
+Insertion Sort   
+Merge Sort   
+Counting Sort   
+Bucket Sort   
+Radix Sort   
 
 ### Unstable Sorting
 
-Selection sort
-
-Heap Sort
-
-Shell Sort
-
-Quick Sort
+Selection sort   
+Heap Sort   
+Shell Sort   
+Quick Sort   
