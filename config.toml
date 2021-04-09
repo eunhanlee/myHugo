@@ -8,7 +8,7 @@ canonifyurls = true
 paginate = 10
 
 [blackfriday]
-    extensions = [hardLineBreak]
+    extensions = ["hardLineBreak"]
 
 
 [indexes]
