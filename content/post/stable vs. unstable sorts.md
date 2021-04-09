@@ -7,11 +7,7 @@ topics : [CodingQuestions]
 
 ## Definition
 
-Stable and unstable is depend on how sort any duplicated list.
-
-If the algorithm **keeps original position** of duplicated values, it is stable sort algorithm
-
-If the algorithm positioned duplicated values **randomly**, it is unstable sort algorithm
+Stable and unstable is depend on how sort any duplicated list.  If the algorithm **keeps original position** of duplicated values, it is stable sort algorithm  If the algorithm positioned duplicated values **randomly**, it is unstable sort algorithm
 
 ## Example
 
