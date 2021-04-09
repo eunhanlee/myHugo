@@ -7,6 +7,9 @@ copyright = "&copy; 2021. All rights reserved."
 canonifyurls = true
 paginate = 10
 
+[blackfriday]
+    extensions = [hardLineBreak]
+
 
 [indexes]
   tag = "tags"
