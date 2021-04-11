@@ -1,7 +1,7 @@
 ---
-title : "stable vs. unstable sorts"
+title : "i++ vs. ++i  prefix operator and postfix operator"
 date : "2021-04-08"
-tags : [coding questions, sort, stable sort, unstable sort]
+tags : [coding questions, prefix operator, postfix operator, prefix, postfix, operator,++,--]
 topics : [CodingQuestions]
 ---
 
