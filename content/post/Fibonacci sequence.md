@@ -97,6 +97,9 @@ A number is Fibonacci if and only if one or both of $(5n^2+4)$ or $(5n^2-4)$ is 
 when x is $\sqrt{x} \cdot \sqrt{x}=x$   
 The $\sqrt{x}$ must not decimal number.
 
+
+### Example Code
+
 ```java
 
     public static boolean isPerfectSquare(int temp) {
