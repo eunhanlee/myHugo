@@ -1,6 +1,6 @@
 ---
-title : [Java]Primitive type and Reference type
-date : 2021-04-12
+title : "[Java]Primitive type and Reference type"
+date : "2021-04-12"
 tags : [code knowledge, Primitive type, Primitive,Reference type,Reference,Java]
 topics : [CodeKnowledge]
 ---
