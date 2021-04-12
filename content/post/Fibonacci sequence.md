@@ -40,53 +40,52 @@ $F_n=F_{n-1}+F_{n-2}$
 
 ## get nth fibonacci number
 
-### Repeat
+### math
 
 ```java
-unsigned int fibonacci_iter(unsigned int n) {
 
-    if (n == 0) return 0;
-    else if (n == 1) return 1;
-    else {
-
-        int result = 0;
-        int iterA = 0;
-        int iterB = 1;
-
-        for (int i = 2; i <= n; i++) {
-
-            result = iterA + iterB;
-            iterA = iterB;
-            iterB = result;
-
-        }
-
-        return result;
-
+    public static int fib(int num) {
+        double goldenRatio = (1 + Math.sqrt(5)) / 2;
+        return (int) Math.round(Math.pow(goldenRatio, num) / Math.sqrt(5));
     }
-
-}
 ```
 
 ### recuresive
 
 ```java
-unsigned int fibonacci_rcsv(unsigned int n) {
 
-    if (n == 0) return 0;
-    else if (n == 1) return 1;
-    else return fibonacci_rcsv(n - 2) + fibonacci_rcsv(n - 1);
-
-}
+    public static int fibRecursive(int num) {
+        if (num == 0) return 0;
+        else if (num == 1) return 1;
+        else return fibRecursive(num - 2) + fibRecursive(num - 1);
+    }
 ```
 
-### math
+### Repeat
 
 ```java
-public int fib(int N) {
-        double goldenRatio = (1 + Math.sqrt(5)) / 2;
-        return (int)Math.round(Math.pow(goldenRatio, N)/ Math.sqrt(5));
-}
+
+    public static int fib(int num) {
+        if (num == 0) return 0;
+        else if (num == 1) return 1;
+
+        else {
+            int result = 0;
+            int iterA = 0;
+            int iterB = 1;
+
+            for (int i = 2; i <= num; i++) {
+
+                result = iterA + iterB;
+                iterA = iterB;
+                iterB = result;
+
+            }
+
+            return result;
+        }
+
+    }
 ```
 
 ## verify fiboncci number
@@ -99,12 +98,13 @@ when x is $\sqrt{x} \cdot \sqrt{x}=x$
 The $\sqrt{x}$ must not decimal number.
 
 ```java
-    static boolean isPerfectSquare(int x) {
-        int s = (int) Math.sqrt(x);
-        return (s * s == x);
+
+    public static boolean isPerfectSquare(int temp) {
+        int s = (int) Math.sqrt(temp);
+        return (s * s == temp);
     }
 
-    static boolean isFibonacci(int n) {
-        return isPerfectSquare(5 * n * n + 4) || isPerfectSquare(5 * n * n - 4);
+    public static boolean isFibonacci(int num) {
+        return isPerfectSquare(5 * num * num + 4) || isPerfectSquare(5 * num * num - 4);
     }
 ```
