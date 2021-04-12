@@ -9,11 +9,11 @@ topics : [CodeKnowledge]
 
 - JAVA provides 8 kinds of Primitive type
 - There is no null value. Defult value is already inserted.
-- **actual value**will saved in **Stack** memory.
+- **actual value** will saved in **Stack** memory.
 - String is object. Not primitive type.
 
 | Data Type | Allocated Memory | Defult Value | Range of Data                                          | Range of Data in Number                    |
-| --------- | ---------------- | ------------ | ------------------------------------------------------ | ------------------------------------------ |
+| :--------- | :---------------- | :------------ | :------------------------------------------------------ | :------------------------------------------ |
 | boolean   | 1 byte           | false        | true, false                                            |
 | byte      | 1 byte           | 0            | -127 ~ 128                                             | $-2^{7}$~ $(2^{7}-1)$                      |
 | short     | 2 byte           | 0            | -32,768 ~ 32,767                                       | $-2^{15}$~ $(2^{15}-1)$                    |
@@ -27,7 +27,7 @@ topics : [CodeKnowledge]
 
 - Every type except the primitive type is Reference type
 - There is null value
-- **actual address**will saved in **Heap** memory.
+- **actual address** will saved in **Heap** memory.
 
 | Data Type   | Allocated Memory | Defult Value |
 | ----------- | ---------------- | ------------ |
