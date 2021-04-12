@@ -19,10 +19,10 @@ topics : [Java]
 
 ```java
 
-    public static int fibonacci_rcsv(int num) {
+    public static int fibRecursive(int num) {
         if (num == 0) return 0;
         else if (num == 1) return 1;
-        else return fibonacci_rcsv(num - 2) + fibonacci_rcsv(num - 1);
+        else return fibRecursive(num - 2) + fibRecursive(num - 1);
     }
 ```
 
