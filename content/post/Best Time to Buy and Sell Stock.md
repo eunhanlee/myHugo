@@ -38,6 +38,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ### My code
 
 ```java
+
 class Solution {
     public int maxProfit(int[] prices) {
        int min = Integer.MAX_VALUE;
