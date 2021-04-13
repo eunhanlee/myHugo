@@ -8,6 +8,8 @@
 
   {{ partial "post_meta.html" . }}
   {{ partial "katex.html" . }}
+  
+  
 
   
 {{ .Content | replaceRE "<table>" "<table class=\"pure-table pure-table-bordered\">" | safeHTML }}
@@ -17,6 +19,7 @@
     
 {{ end }}
  
+    {{ $image := $resource.Fit "600x400" }}
   
   {{ partial "share.html" . }}
 
