@@ -1,3 +1,8 @@
-<p class="md__image">
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }} max-width= 100%;" {{ with .Title}} title="{{ . }}"{{ end }} />
-</p>
+{{ $image := .Page.Resources.GetMatch .Destination }}
+{{ if gt $image.Width 640 }}
+    {{ $image = $image.Resize "640x" }}
+{{ end }}
+<figure>
+    <img src="{{ $image.RelPermalink | safeURL }}" {{ with .Text }} alt="{{ . }}" {{ end }} {{ with .Title }} title="{{ . }}" {{ end }}/>
+    {{ with .Title}} <figcaption>{{ . | markdownify }}</figcaption> {{ end }}
+</figure>
