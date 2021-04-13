@@ -1,4 +1,4 @@
-
+{{ $srcUrl := .Get "src" | safeURL }}
 {{ $image := .Page.Resources.GetMatch (printf "%s" $srcUrl) }}
 
 {{ if gt $image.Width 640 }}
