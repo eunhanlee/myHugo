@@ -1,7 +1,7 @@
 {{ $image := .Page.Resources.GetMatch .Destination }}
-{{ if gt $image.Width 640 }}
-    {{ $image = $image.Resize "640x" }}
-{{ end }}
+
+{{ $image = $image.Resize "640x" }}
+
 <figure>
     <img src="{{ $image.RelPermalink | safeURL }}" {{ with .Text }} alt="{{ . }}" {{ end }} {{ with .Title }} title="{{ . }}" {{ end }}/>
     {{ with .Title}} <figcaption>{{ . | markdownify }}</figcaption> {{ end }}
