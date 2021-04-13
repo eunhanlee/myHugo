@@ -1,10 +1,3 @@
-{{ $srcUrl := .Get "src" | safeURL }}
-{{ $image := .Page.Resources.GetMatch (printf "%s" $srcUrl) }}
-
-{{ if gt $image.Width 640 }}
-    {{ $image = $image.Resize "640x" }}
-{{ end }}
-
 <p class="md__image">
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+  <img src="{{ .Destination | safeURL }}" style="width:50%;height:100%;" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
 </p>
