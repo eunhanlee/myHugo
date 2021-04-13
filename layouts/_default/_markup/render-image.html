@@ -1,4 +1,5 @@
-{{- $image := resources.Get .Destination -}}
+
+{{ $image := .Page.Resources.GetMatch (printf "%s" $srcUrl) }}
 
 {{ if gt $image.Width 640 }}
     {{ $image = $image.Resize "640x" }}
