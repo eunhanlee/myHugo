@@ -1,6 +1,6 @@
 ---
 title : "what is diffence between comparator and compatable in JAVA"
-date : "2021-04-08"
+date : "2021-04-15"
 tags : [coding questions, diffence between comparator and compatable, comparator , compatable , Java]
 topics : [CodingQuestions]
 ---
