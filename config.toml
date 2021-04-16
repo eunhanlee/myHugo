@@ -17,7 +17,7 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "Eunhan's personal web site / portfolio"
+  subtitle = "Eunhan's web site"
   brand = "library"
   googleAnalytics = "poiqqaz"
   disqus = "eunhanlee"
