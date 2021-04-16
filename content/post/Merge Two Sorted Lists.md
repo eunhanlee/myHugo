@@ -7,7 +7,7 @@ topics : [ProblemSolving]
 
 ## Problem
 
-[Problem_Link](https://leetcode.com/problems/merge-two-sorted-lists/){: .btn .btn-green}
+[Problem_Link](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 - 1 hour limit
 - no search on internet
