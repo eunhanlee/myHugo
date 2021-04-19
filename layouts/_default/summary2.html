@@ -1,14 +1,10 @@
 <article>
   <header>
      
-    <h1 style="display:inline;">Bold text goes here</h1> <h2 style="display:inline;">normal text goes here</h2>  
-    
-    
-    
-    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-      <br>
-<h5>
-    <i class="fa fa-calendar fa-fw"></i>
+    <h3 style="display:inline;"><a href="{{ .Permalink }}">{{ .Title }}</a></h3> 
+    <br>
+    <h5 style="display:inline;">normal text goes here
+        <i class="fa fa-calendar fa-fw"></i>
     <time>{{ with .Site.Params.dateFormat }}{{ $.Date.Format . }}{{ else }}{{ .Date.Format "02 Jan 2006, 15:04" }}{{ end }}</time>
 
   {{ $baseUrl := .Site.BaseURL }}
@@ -22,11 +18,11 @@
     {{ end }}
   {{ end }}
   {{ end }}
-</h5>
-
-
-
-
+    
+    
+    
+    </h5>  
+    
   </header>
 
 </article>
