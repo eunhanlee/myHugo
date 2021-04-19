@@ -1,10 +1,9 @@
 <article>
   <header>
-    <h4><a href="{{ .Permalink }}">{{ .Title }}</a>
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
 
-    &nbsp;
-    -
-    &nbsp;
+  <br>
+    <h4>
     <i class="fa fa-calendar fa-fw"></i>
     <time>{{ with .Site.Params.dateFormat }}{{ $.Date.Format . }}{{ else }}{{ .Date.Format "02 Jan 2006, 15:04" }}{{ end }}</time>
 
@@ -19,8 +18,8 @@
     {{ end }}
   {{ end }}
   {{ end }}
+ </h4>
 
-</h4>
   </header>
 
 </article>
