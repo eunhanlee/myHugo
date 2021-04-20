@@ -20,9 +20,8 @@ topics : [Java]
 ```java
 
     public static int fibRecursive(int num) {
-        if (num == 0) return 0;
-        else if (num == 1) return 1;
-        else return fibRecursive(num - 2) + fibRecursive(num - 1);
+        if (num <= 1) return num;
+        return fibRecursive(num - 2) + fibRecursive(num - 1);
     }
 ```
 
