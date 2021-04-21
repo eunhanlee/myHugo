@@ -6,7 +6,7 @@ topics : [ProblemSolving]
 ---
 ## Problem
 
-[Problem_Link](https://leetcode.com/problems/reverse-integer/){: .btn .btn-green}
+[Problem_Link](https://leetcode.com/problems/reverse-integer/)
 
 - 1 hour limit
 - no search on internet
