@@ -13,7 +13,7 @@ split problem into sub problems as much as possible and merge all of them to ans
 
 Divide and conquer algorithms does not use subproblems' results for other sub problems.
 
-But, dynamic programming uses other resoults of subproblem. 
+But, dynamic programming uses other resoults of subproblem.
 
 ### Usually use in..
 
@@ -39,24 +39,19 @@ But, dynamic programming uses other resoults of subproblem.
 
 #### step 2. separate into half repeatly
 
-
- ![](https://raw.githubusercontent.com/eunhanlee/img/main/0007.png)
-
+![](https://raw.githubusercontent.com/eunhanlee/img/main/0007.png)
 
 #### step 3. merge separated units by order
 
- ![](https://raw.githubusercontent.com/eunhanlee/img/main/0008.png)
-
+![](https://raw.githubusercontent.com/eunhanlee/img/main/0008.png)
 
 #### step 4. repeat step 3 untill the data set become one
 
- ![](https://raw.githubusercontent.com/eunhanlee/img/main/0009.png)
-
+![](https://raw.githubusercontent.com/eunhanlee/img/main/0009.png)
 
 #### code
-
-    ```java
-    class MergeSort 
+```java
+    class MergeSort
     {
         // Merges two subarrays of arr[].
         // First subarray is arr[l..m]
@@ -66,22 +61,22 @@ But, dynamic programming uses other resoults of subproblem.
             // Find sizes of two subarrays to be merged
             int n1 = m - l + 1;
             int n2 = r - m;
-     
+
             /* Create temp arrays */
             int L[] = new int[n1];
             int R[] = new int[n2];
-     
+
             /*Copy data to temp arrays*/
             for (int i = 0; i < n1; ++i)
                 L[i] = arr[l + i];
             for (int j = 0; j < n2; ++j)
                 R[j] = arr[m + 1 + j];
-     
+
             /* Merge the temp arrays */
-     
+
             // Initial indexes of first and second subarrays
             int i = 0, j = 0;
-     
+
             // Initial index of merged subarry array
             int k = l;
             while (i < n1 && j < n2) {
@@ -95,14 +90,14 @@ But, dynamic programming uses other resoults of subproblem.
                 }
                 k++;
             }
-     
+
             /* Copy remaining elements of L[] if any */
             while (i < n1) {
                 arr[k] = L[i];
                 i++;
                 k++;
             }
-     
+
             /* Copy remaining elements of R[] if any */
             while (j < n2) {
                 arr[k] = R[j];
@@ -110,7 +105,7 @@ But, dynamic programming uses other resoults of subproblem.
                 k++;
             }
         }
-     
+
         // Main function that sorts arr[l..r] using
         // merge()
         void sort(int arr[], int l, int r)
@@ -118,16 +113,16 @@ But, dynamic programming uses other resoults of subproblem.
             if (l < r) {
                 // Find the middle point
                 int m = (l + r) / 2;
-     
+
                 // Sort first and second halves
                 sort(arr, l, m);
                 sort(arr, m + 1, r);
-     
+
                 // Merge the sorted halves
                 merge(arr, l, m, r);
             }
         }
-     
+
         /* A utility function to print array of size n */
         static void printArray(int arr[])
         {
@@ -136,27 +131,30 @@ But, dynamic programming uses other resoults of subproblem.
                 System.out.print(arr[i] + " ");
             System.out.println();
         }
-     
+
         // Driver code
         public static void main(String args[])
         {
             int arr[] = { 12, 11, 13, 5, 6, 7 };
-     
+
             System.out.println("Given Array");
             printArray(arr);
-     
+
             MergeSort ob = new MergeSort();
             ob.sort(arr, 0, arr.length - 1);
-     
+
             System.out.println("\nSorted array");
             printArray(arr);
         }
     }
     /* This code is contributed by Rajat Mishra */
-    ```
+
+```
+
 [Source code From geeksforgeeks](https://www.geeksforgeeks.org/java-program-for-merge-sort/)
 
 ### Complexity Analysis of merge sort
 
 - Time complexity : $O(n\ log\ n)$
 - Space complexity : $O(n)$
+```
