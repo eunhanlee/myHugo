@@ -5,18 +5,47 @@ tags : [Java Dictionary,switch,switch statement]
 topics : [Java]
 ---
 
+### lambda Example (after java 8)
 ```java
 
-    public static int getNum(char s) {
-        return switch (s) {
-            case 'I' -> 1;
-            case 'V' -> 5;
-            case 'X' -> 10;
-            case 'L' -> 50;
-            case 'C' -> 100;
-            case 'D' -> 500;
-            case 'M' -> 1000;
-            default -> 0;
-        };
+public static double calculate(String operator, double x, double y) {
+    return switch (operator) {
+        case "+","add" -> x + y;
+        case "-","sub" -> x - y;
+        case "*","multiply" -> x * y;
+        case "/","divide" -> {
+            if (y == 0) {
+                throw new IllegalArgumentException("Can't divide by 0");
+            }
+            yield x / y;
+        }
+        default -> throw new IllegalArgumentException("Unknown operator "+operator);
+    };
+}
+```
+
+### Example
+```java
+
+    public static double calculate(String operator, double x, double y) {
+        switch (operator) {
+            case "+":
+            case "add":
+                return x + y;
+            case "-":
+            case "sub":
+                return x - y;
+            case "*":
+            case "multiply":
+                return x * y;
+            case "/":
+            case "divide":
+                if (y == 0) {
+                    throw new IllegalArgumentException("Can't divide by 0");
+                }
+                return x / y;
+            default:
+                throw new IllegalArgumentException("Unknown operator " + operator);
+        }
     }
 ```
