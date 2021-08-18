@@ -63,8 +63,8 @@ paginate = 10
     name = "CodeStudy"
     pre = "<i class='fa fa-book fa-fw'></i>"
     weight = 6
-    identifier = "CodeKnowledge"
-    url = "/topics/CodeKnowledge/"
+    identifier = "CodeStudy"
+    url = "/topics/CodeStudy/"
   [[menu.main]]
     name = "ProblemSolving"
     pre = "<i class='fas fa-puzzle-piece fa-fw'></i>"
