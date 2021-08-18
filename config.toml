@@ -60,7 +60,7 @@ paginate = 10
 #    identifier = "Projects"
 #    url = "/topics/Projects/"
    [[menu.main]]
-    name = "CodeKnowledge"
+    name = "CodeStudy"
     pre = "<i class='fa fa-book fa-fw'></i>"
     weight = 6
     identifier = "CodeKnowledge"
@@ -72,17 +72,11 @@ paginate = 10
     identifier = "ProblemSolving"
     url = "/topics/ProblemSolving/"
   [[menu.main]]
-    name = "CodingQuestions"
-    pre = "<i class='far fa-question-circle fa-fw'></i>"
-    weight = 8
-    identifier = "CodingQuestions"
-    url = "/topics/CodingQuestions/"
-  [[menu.main]]
-    name = "Java"
+    name = "CodeDictionary"
     pre = "<i class='fas fa-code fa-fw'></i>"
     weight = 9
-    identifier = "Java"
-    url = "/topics/Java/"
+    identifier = "CodeDictionary"
+    url = "/topics/CodeDictionary/"
     
     
     
