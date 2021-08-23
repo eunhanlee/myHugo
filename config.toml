@@ -47,12 +47,12 @@ paginate = 10
     url = "/post/"
     
     
-#  [[menu.main]]
-#    name = "HowToInstall"
-#    pre = "<i class='fas fa-chalkboard fa-fw'></i>"
-#    weight = 4
-#    identifier = "HowToInstall"
-#    url = "/topics/HowToInstall/"
+  [[menu.main]]
+    name = "Installation"
+    pre = "<i class='fas fa-chalkboard fa-fw'></i>"
+    weight = 4
+    identifier = "Installation"
+    url = "/topics/Installation/"
 #  [[menu.main]]
 #    name = "Projects"
 #    pre = "<i class='fas fa-file-code fa-fw'></i>"
