@@ -76,13 +76,13 @@ git verify users with email and username. If you do not set, it will cause some 
 
 #### set user name
 ```bash
-git config --global user.name "[your id]"
+git config --global user.name "your id"
 ```
 
 #### set email
 
 ```bash
-git config --global user.email "[your email]"
+git config --global user.email "your email"
 ```
 
 #### checking
