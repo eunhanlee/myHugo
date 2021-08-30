@@ -1,7 +1,7 @@
 ---
 title : "How to Wright Good Code"
 date : "2021-08-30"
-tags : [CodeStudy, HowTo]
+tags : [CodeStudy, HowTo, GoodCode]
 topics : [CodeStudy]
 ---
 
