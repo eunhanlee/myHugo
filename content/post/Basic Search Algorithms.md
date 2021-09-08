@@ -52,7 +52,7 @@ Usually, use Hash map or Hash table
 
 #### Time complexity
 
-O(1)
+$O(1)$
 
 #### Points
 
@@ -63,5 +63,7 @@ O(1)
 ## Result
 
 Search more than Insert -> Binary Search   
+
 Insert more than Search -> Linear Search   
+
 use more space to faster -> hashing   
