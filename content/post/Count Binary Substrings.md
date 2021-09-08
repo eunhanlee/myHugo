@@ -46,4 +46,4 @@ class Solution {
 ## Reflect on
 - It count how many same numbers and compare previous and current one. then, pick smaller one. add them up.
 - for 0001111, first will be 3 and second will be 4, answer will be 3 (01,0011,000111)->(3,4)-min->3
-- fail to find the algorithm on time. I started to wrong way. Trying to use stack and compare.
+- fail to find the algorithm on time. I need to practice to find repeated loop on the problem.
