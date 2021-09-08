@@ -6,6 +6,11 @@ topics : [CodeDictionary]
 ---
 
 ## Alphabetical Order
+
+According to ASCII rules
+[numbers][capital letters][lowercase letters]
+0 ~ 9, A ~ Z, a ~ z
+
 - Time complexity : $O(n\ log\ n)$
 - Space complexity : $O(1)$
 ### For List
