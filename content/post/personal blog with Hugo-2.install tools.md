@@ -38,7 +38,6 @@ Since I used windows, I used Chocolatey
 [Chocolatey install link](https://chocolatey.org/install)
 
 1. windows terminal->right click-> run as Administer
-   ![](https://raw.githubusercontent.com/eunhanlee/img/main/0046.jpg)
 2. type `Get-ExecutionPolicy` and enter
 3. if it showed `Restricted`, type
    `Set-ExecutionPolicy AllSigned` or
