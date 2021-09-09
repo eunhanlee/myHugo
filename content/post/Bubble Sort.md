@@ -6,12 +6,15 @@ topics : [CodeStudy]
 ---
 
 ## Definition
+
 one of sort algorithms
 
 ## Technique
+
 Brute Force
 
 ### Algorithm steps
+
 1. compare two numbers
 2. smaller number will be left and bigger number will be in right side.
 3. compare over and over again untill the end of the list
@@ -36,28 +39,47 @@ Brute Force
         return input;
     }
 ```
-### Avg. time complexity 
-$O(n^2)$ 
+
+### Avg. time complexity
+
+$O(n^2)$
+
 ### Worst time complexity
-$O(n^2)$  
+
+$O(n^2)$
+
 ### space complexity
+
 $O(1)$
-### stability 
-yes 
+
+### stability
+
+yes
 
 ---
 
 ## How to calculate
-### numbers of loop
-$n-1$
-### The most visited place of the list
-$n-1$ (the first place)
-### The least visited place of the list
-$1$ (the last place)
-### Avg. visited numbers of the list
-(The most visited place of the list+The least visited place of the list)/2 $= \frac{(n-1+1)}{2} = \frac{n}{2}$
-### Polynomial Time
-numbers of loop*Avg. visited numbers of the list $=(n-1)\cdot \frac{n}{2}$
-### Time Complexity 
-$$O(Polynomial\; Time)=O((n-1)\cdot \frac{n}{2})=O((\frac{n^2}{2}-\frac{n}{2}))=O(n^2)$$
 
+### numbers of loop
+
+$n-1$
+
+### The most visited place of the list
+
+$n-1$ (the first place)
+
+### The least visited place of the list
+
+$1$ (the last place)
+
+### Avg. visited numbers of the list
+
+(The most visited place of the list+The least visited place of the list)/2 $= \frac{(n-1+1)}{2} = \frac{n}{2}$
+
+### Polynomial Time
+
+numbers of loop\*Avg. visited numbers of the list $=(n-1)\cdot \frac{n}{2}$
+
+### Time Complexity
+
+$$O(Polynomial\; Time)=O((n-1)\cdot \frac{n}{2})=O((\frac{n^2}{2}-\frac{n}{2}))=O(n^2)$$
