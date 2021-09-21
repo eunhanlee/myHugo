@@ -136,22 +136,22 @@ Recusively loop based on Lomuto.
 ```
 
 #### Avg. time complexity 
-$O(n\;log\;n)$ 
+$O(n\, log\, n)$ 
 #### Worst time complexity
 $O(n^2)$  
 #### space complexity
-$O(log\;n)$
+$O(log\, n)$
 #### stability 
 no
 
 ## How to calculate
 ### numbers of loop
 - base recursion: $O(n)$
-- If separated evenly : $O(log\;n)$
+- If separated evenly : $O(log\,n)$
 - If separated not evenly : $O(n)$
 
 #### Time Complexity
-- If separated evenly : $  O(n \cdot log\;n)=O(n\;log\;n)$
+- If separated evenly : $  O(n \cdot log\,n)=O(n\,log\,n)$
 - If separated not evenly (the worst case) : $O(n  \cdot n)=O(n^2)$
 
 
