@@ -45,4 +45,4 @@ There are many other IDEs. But, these two is most famous and popular
 ## JDK setting?
 If you use IDE first time, you will need to set JDK location as the blow.
 ![](https://raw.githubusercontent.com/eunhanlee/img/main/0055.jpg)
-*위의 예시는 intellij를 사용
+*this picture is using intellij
