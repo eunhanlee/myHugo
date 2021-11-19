@@ -72,6 +72,12 @@ paginate = 10
     identifier = "ProblemSolving"
     url = "/topics/ProblemSolving/"
   [[menu.main]]
+    name = "ExcelMacro"
+    pre = "<i class='far fa-file-excel fa-fw'></i>"
+    weight = 8
+    identifier = "ExcelMacro"
+    url = "/topics/ExcelMacro/"
+  [[menu.main]]
     name = "CodeDictionary"
     pre = "<i class='fas fa-code fa-fw'></i>"
     weight = 9
