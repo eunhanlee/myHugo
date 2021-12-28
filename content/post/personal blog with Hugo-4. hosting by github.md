@@ -1,6 +1,6 @@
 ---
 title : "personal blog with Hugo-4. hosting by github"
-date : "2021-09-14"
+date : "2021-12-28"
 tags : [Installation,Hugo,CreateWebsite,Github]
 topics : [Installation]
 ---
